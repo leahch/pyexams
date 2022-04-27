@@ -1,4 +1,16 @@
-from mymodule import m1
+#from mymodule import m1
+
+import mymodule.m1 as aaa
 
 # print("test")
-m1.myfunc("test")
+aaa.myfunc("test")
+
+cls = aaa.MyClass()
+
+print(cls.f1(10))
+
+
+
+
+
+
