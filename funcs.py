@@ -26,3 +26,5 @@ class MyClass3(MyClass, MyClass2):
 
 c = MyClass3()
 c.myfunc3(10)
+
+print("test")
